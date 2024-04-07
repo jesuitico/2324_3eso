@@ -1,0 +1,57 @@
+     * { 
+        margin:0;
+        padding:0;
+      }  /*esto son los margenes de la pagina*/
+      a:link, a:visited, a:hover, a:active {
+        color:#FF00FF;
+        font-size:17px;
+      }  /*esto es el color y el tamaño de letra de los enlaces*/
+      body {
+        background:#FF5C8C;
+        font-family:verdana;
+      }  /*aqui se introduce el color de fondo y la fuente de la pagina*/
+      h1 {
+        color:#FF5C8C;
+        font-size:20px;
+        text-align:center
+      }  /*esto es el color y el tamaño de letra de un titulo*/
+      p {
+        font-size:30px;
+        color:#fff;
+      }  /*esto es el color y el tamaño de letra de el texto general*/
+      h2 {
+        font-size:30px;
+        color:#FF5C8C;
+      }
+      ul {
+        list-style-type:none;
+      }
+      #cabecera {
+        background-color:#FFE4E1;
+        padding:15px;
+        text-align:center
+      }  /*esto es el color el margen y la alineac¡on del texto de la cabecera*/
+      #contenedor {
+        margin:0 auto;
+        width:100%;
+      }
+      #contenido {
+        background-color:#FF5C8C;
+        float:left;
+        height:100%;
+        padding:10px;
+        width:75%;
+      }  /*aqui se especifica el color el margen y la posicion de la zona del contenido*/
+      #menu {
+        background-color:#FFE4E1;
+        float:left;
+        height:100%;
+        padding:20px;
+        width:15%;
+      }  /*aqui el color el margen y posicion de la zona del menu*/
+      #pie { 
+        background-color:#FF5C8C;
+        clear:both;
+        padding:10px;
+      }  /*esto es el color y el margen del pie de la pagina,*/
+    
